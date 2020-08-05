@@ -1,0 +1,9 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'GitExplore',
+      #directory : 'src',
+      #platforms : [ #pharo ]
+    }
+  ]
+}
