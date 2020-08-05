@@ -1,0 +1,5 @@
+#+TITLE: Git Explore
+
+[[https://travis-ci.org/EwanDawson/git-explore.svg?branch=master]]
+
+Tools for working with Git repositories in [[https://pharo.org][Pharo]] Smalltalk.
