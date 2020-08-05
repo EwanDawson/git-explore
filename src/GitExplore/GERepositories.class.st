@@ -52,6 +52,14 @@ GERepositories >> do: aBlock [
   ^ repos values do: aBlock
 ]
 
+{ #category : #'as yet unclassified' }
+GERepositories >> forget: aRepository [
+  "Remove the given repository object from the collection of reporitories I know about.
+   If the repository was not known to me, notify an error"
+
+  repos removeKey: aRepository id
+]
+
 { #category : #initialization }
 GERepositories >> initialize [
 	self reset
