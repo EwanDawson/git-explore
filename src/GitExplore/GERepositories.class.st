@@ -22,8 +22,9 @@ GERepositories >> add: aFileReference [
 	| file |
 	file := aFileReference resolve.
 	file isGitRepo
-		ifTrue:
-			[ repos at: file pathString asSymbol put: (LGitRepository on: file) ]
+		ifTrue: [ | repo |
+			repo := LGitRepository on: file.
+			repos at: repo id put: repo ]
 		ifFalse: [ self error: 'Not a git repo: ' , file printString ]
 ]
 
