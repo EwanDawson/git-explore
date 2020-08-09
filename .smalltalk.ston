@@ -3,8 +3,10 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'GitExplore',
       #directory : 'src',
-      #platforms : [ #pharo ],
-      #failOnZeroTests : false
+      #platforms : [ #pharo ]
     }
-  ]
+  ],
+  #testing : {
+      #failonzerotests : false
+  }
 }
