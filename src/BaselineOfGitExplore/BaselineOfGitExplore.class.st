@@ -19,7 +19,7 @@ BaselineOfGitExplore >> baseline: spec [
 { #category : #dependencies }
 BaselineOfGitExplore >> lazygun: spec [ 
 	spec
-		baseline: 'Lazygun' with: [ spec repository: 'github://EwanDawson/Lazygun/src' ]
+		baseline: 'Lazygun' with: [ spec repository: 'github://EwanDawson/pharo-lazygun/src' ]
 ]
 
 { #category : #accessing }
